@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example Rails application with Enkrip. Define `ENKRIP_LENGTH`, `ENKRIP_SALT`, and `ENKRIP_SECRET` environment variables before run this app.
 
-Things you may want to cover:
+```
+# Example Enviroment variables, DO NOT USE ON PRODUCTION
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+export ENKRIP_LENGTH=32
+export ENKRIP_SALT="Z\xC8\xA2\x13\x06y\xDEq\xCB\x00\xBB\x89R\xD3\x8D\x80\xDC\x88\xDAc\x05\xC9wR\x93\xD2\xA8\xF5\x13\xAF\xBF\x04"
+export ENKRIP_SECRET="f031fbebc6bb5a69094139c24090fd42"
+```
